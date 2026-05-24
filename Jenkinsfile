@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        ENV = "dev"
+        ENV = "prod"
         APP_NAME = "my-app"
     }
 
